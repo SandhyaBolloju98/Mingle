@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "708257588077",
+    "project_id": "funapp-c3634",
+    "storage_bucket": "funapp-c3634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708257588077:android:9d8faa09d970d4c4da3064",
+        "android_client_info": {
+          "package_name": "com.random.chat.meetnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpW08w9_nZQBDqEsEaUeGq6V8xXCDzLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708257588077:android:203c221314832c16da3064",
+        "android_client_info": {
+          "package_name": "com.random.chat.mingle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpW08w9_nZQBDqEsEaUeGq6V8xXCDzLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708257588077:android:9bb795317423148cda3064",
+        "android_client_info": {
+          "package_name": "com.random.chat.sandyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpW08w9_nZQBDqEsEaUeGq6V8xXCDzLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7481777880413356~2855196223"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708257588077:android:c86ac13597bed0bfda3064",
+        "android_client_info": {
+          "package_name": "com.random.chat.sandyapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpW08w9_nZQBDqEsEaUeGq6V8xXCDzLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708257588077-lq6lr5hjnaqpimg0dce7foso44aurv90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

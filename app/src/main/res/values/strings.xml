@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Mingle</string>
+    <string name="ADMOB_AND_GAM_COMBINED_APP_ID">ca-app-pub-7481777880413356~6973468819</string>
+    <string name="META_APP_ID">ab0</string>
+    <string name="META_CLIENT_TOKEN">cd1</string>
+    <string name="APPLOVIN_APP_ID">cd0</string>
+
+<!--
+
+    <string name="main_banner">82e366af85400c5f</string>
+    <string name="search_banner">39c6c9d60910b656</string>
+    <string name="chat_banner">0e406e11e11a60d6</string>
+    <string name="settings_banner">1b3966fb165709d9</string>
+
+    <string name="save_MREC">987cc6a565a4eb6a</string>
+    <string name="in_message_MREC">1ecc79bd512b149a</string>
+
+    <string name="exit_interstitial">1c6e3ef166f6ed3f</string>
+    <string name="save_interstitial">29ea1111cc1c7d3a</string>
+
+    <string name="exit_rewarded">c592a6bbcb541493</string>
+    <string name="save_rewarded">aa5383c5dde62d75</string>
+-->
+<!--
+//test ads
+    <string name="LOGIN_BANNER">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="SEARCH_BANNER">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="CHAT_BANNER">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="EXIT_INTERSTITIAL">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="EXIT_REWARDED_AD">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="SEARCH_REWARDED_AD">ca-app-pub-3940256099942544/5224354917</string>
+
+
+    <string name="SETTINGS_BANNER">ca-app-pub-3940256099942544/6300978111</string>
+    <string name= "OPEN_AD">ca-app-pub-3940256099942544/3419835294</string>
+
+    <string name="CHAT_AD">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="SAVE_INTERSTITIAL">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="SEARCH_INTERSTITIAL_AD">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="SAVE_REWARDED_AD">ca-app-pub-3940256099942544/5224354917</string>
+-->.
+
+// prod ads
+  <!--  <string name="LOGIN_BANNER">ca-app-pub-7481777880413356/6067381562</string>
+    <string name="SEARCH_BANNER">ca-app-pub-7481777880413356/6770089142</string>
+    <string name="CHAT_BANNER">ca-app-pub-7481777880413356/3432096471</string>
+    <string name="EXIT_INTERSTITIAL">ca-app-pub-7481777880413356/2119014805</string>
+    <string name="SEARCH_REWARDED_AD">ca-app-pub-7481777880413356/5394805326</string>
+     <string name="EXIT_REWARDED_AD">ca-app-pub-7481777880413356/4362034762</string>
+
+
+    <string name="SETTINGS_BANNER">ca-app-pub-7481777880413356/2582613883</string>
+    <string name= "OPEN_AD">ca-app-pub-7481777880413356/2698982193</string>
+
+    <string name="CHAT_AD">ca-app-pub-7481777880413356/2507410508</string>
+     <string name="SEARCH_INTERSTITIAL_AD">ca-app-pub-7481777880413356/9976994264</string>
+
+    <string name="SAVE_INTERSTITIAL">ca-app-pub-7481777880413356/2595040414</string>-->
+ <!--   <string name="SAVE_REWARDED_AD">ca-app-pub-7481777880413356/6255083828</string>
+-->
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

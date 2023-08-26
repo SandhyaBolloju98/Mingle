@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.random.chat.mingle1">
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name="com.random.chat.mingle1.MyApplication"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.random.chat.mingle1.Activities.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.StrangerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.RandomUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.random.chat.mingle1.Activities.RegisterUserActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- AdMob app ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value=
+                "@string/ADMOB_AND_GAM_COMBINED_APP_ID"
+            tools:replace="android:value" />
+
+        <!-- facebook -->
+           <meta-data
+               android:name="com.facebook.sdk.ApplicationId"
+               android:value="@string/META_APP_ID"
+               tools:replace="android:value" />
+           <meta-data
+               android:name="com.facebook.sdk.ClientToken"
+               android:value="@string/META_CLIENT_TOKEN"
+               tools:replace="android:value" />
+
+        <!-- Applovin -->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="@string/APPLOVIN_APP_ID"
+            tools:replace="android:value" />
+
+    </application>
+
+    <queries>
+        <package android:name="com.android.vending" />
+        <package android:name="com.amazon.venezia" />
+        <package android:name="com.sec.android.app.samsungapps" />
+        <package android:name="com.huawei.appmarket" />
+    </queries>
+
+</manifest>

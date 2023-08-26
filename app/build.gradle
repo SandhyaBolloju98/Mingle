@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'sandhya'
+            keyPassword 'Sandy&12'
+            storeFile file('D:/App Important Details/mingle_key.jks')
+            storePassword 'Sandy&12'
+        }
+    }
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.random.chat.mingle1"
+        minSdk 21
+        targetSdk 33
+        versionCode 5
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    //defaults
+    implementation 'androidx.core:core-ktx:1.9.0'//do not update duplicate class error
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+
+    //design
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    //firebase
+
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation("com.google.firebase:firebase-crashlytics")
+
+
+    //lifecycle // open ad
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.4.1"
+    implementation 'com.google.android.gms:play-services-ads-lite:22.2.0'
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.4.1"
+
+    implementation 'com.github.peppty-dev:vadenhancer:1.0.25'
+}

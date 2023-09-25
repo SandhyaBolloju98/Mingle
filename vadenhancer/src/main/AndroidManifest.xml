@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- VAE Adcolony app ID -->
+    <queries>
+        <package android:name="com.android.vending" />
+        <package android:name="com.amazon.venezia" />
+        <package android:name="com.sec.android.app.samsungapps" />
+        <package android:name="com.huawei.appmarket" />
+    </queries>
+
+    <!-- VAE Play service ads ID default-->
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <!-- VAE Applovin app ID -->
+    <meta-data
+        android:name="applovin.sdk.key"
+        android:value="@string/APPLOVIN_APP_ID" />
+
+    <!-- VAE Meta manifest requirements -->
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value=""/>
+    <meta-data android:name="com.facebook.sdk.ClientToken" android:value=""/>
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:configChanges="keyboardHidden|orientation|screenSize">
+
+        <!-- VAE AdMob and Gam app ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ADMOB_AND_GAM_COMBINED_APP_ID" />
+
+        <!-- VAE Ironsource manifest requirements -->
+        <activity
+            android:name="com.ironsource.sdk.controller.ControllerActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" />
+        <provider
+            android:authorities="${applicationId}.IronsourceLifecycleProvider"
+            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider" />
+
+        <!-- VAE Adcolony manifest requirements -->
+        <activity android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:hardwareAccelerated="true"/>
+
+        <!-- VAE Mytarget manifest requirements -->
+        <activity android:name="com.my.target.common.MyTargetActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+
+
+        <!--
+
+               &lt;!&ndash; AppBrain &ndash;&gt;
+               <activity
+                   android:name="com.appbrain.AppBrainActivity"
+                   android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+               <provider
+                   android:name="com.appbrain.AppBrainInitProvider"
+                   android:authorities="${applicationId}.AppBrainInitProvider"
+                   android:exported="false" />
+               <service android:name="com.appbrain.AppBrainService" />
+               <service
+                   android:name="com.appbrain.AppBrainJobService"
+                   android:permission="android.permission.BIND_JOB_SERVICE" />-->
+
+
+    </application>
+</manifest>

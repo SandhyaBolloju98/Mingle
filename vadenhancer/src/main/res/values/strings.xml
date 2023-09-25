@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item name="LIBNAME" type="string">VAdEnhancer</item>
+
+    <!--gam test id-->
+    <item name="ADMOB_AND_GAM_COMBINED_APP_ID" type="string">ca-app-pub-3940256099942544~3347511713</item>
+
+    <!--applovin test id-->
+    <item name="APPLOVIN_APP_ID" type="string">00q</item>
+
+</resources>

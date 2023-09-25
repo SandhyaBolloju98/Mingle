@@ -66,5 +66,20 @@
       <option name="name" value="maven" />
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="myrepo" />
+      <option name="name" value="myrepo" />
+      <option name="url" value="file:/$PROJECT_DIR$/vadenhancer/build/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven11" />
+      <option name="name" value="maven11" />
+      <option name="url" value="https://maven.google.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven10" />
+      <option name="name" value="maven10" />
+      <option name="url" value="https://cboost.jfrog.io/artifactory/chartboost-ads/" />
+    </remote-repository>
   </component>
 </project>

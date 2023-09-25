@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
 
+
     id 'com.google.firebase.crashlytics'
 }
 
@@ -39,7 +40,9 @@ android {
 }
 
 dependencies {
-
+//
+//
+//    implementation project(path: ":vadenhancer")
     //defaults
     implementation 'androidx.core:core-ktx:1.9.0'//do not update duplicate class error
     implementation 'androidx.appcompat:appcompat:1.6.1'
@@ -66,5 +69,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-lite:22.2.0'
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.4.1"
 
-    implementation 'com.github.peppty-dev:vadenhancer:1.0.25'
+   // implementation 'com.github.peppty-dev:vadenhancer:1.0.25'
+  implementation project(path: ":vadenhancer")
+    implementation 'com.google.code.gson:gson:2.8.7'
 }

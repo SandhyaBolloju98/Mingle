@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--System-->
+    <color name="colorAccent">#2962ff</color>
+
+    <!--Colors-->
+
+    <color name="background">#ffffff</color>
+    <color name="dark">#212121</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--General colors-->
+    <color name="shade_100">#F5F5F5</color>
+    <color name="shade_400">#BDBDBD</color>
+    <color name="shade_500">#9E9E9E</color>
+    <color name="shade_900">#212121</color>
+
+    <color name="red1">#af0a0a</color>
+
+
+</resources>
